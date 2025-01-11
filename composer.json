@@ -1,5 +1,5 @@
 {
-    "name": "beck/s3uploader",
+    "name": "bibekdhakal/s3uploader",
     "description": "A package to upload files to S3 using presigned URLs",
     "type": "package",
     "version": "1.0.0",
