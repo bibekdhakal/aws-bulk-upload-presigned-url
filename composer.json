@@ -1,0 +1,48 @@
+{
+    "name": "beck/s3uploader",
+    "description": "A package to upload files to S3 using presigned URLs",
+    "type": "package",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bibek Dhakal",
+            "email": "manepali.bibek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "beck\\S3Uploader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "beck\\S3Uploader\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+          "type": "path",
+          "url": "/Users/beck/Projects/s3Uploader"
+        }
+      ],
+    "require": {
+        "php": "^7.4|^8.3",
+        "aws/aws-sdk-php": "^3.200"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "mockery/mockery": "^1.6",
+        "laravel/framework": "^11.36",
+        "orchestra/testbench": "^9.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "beck\\S3Uploader\\S3UploaderServiceProvider"
+            ]
+        }
+    }
+}
