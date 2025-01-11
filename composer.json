@@ -20,12 +20,6 @@
             "beck\\S3Uploader\\Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-          "type": "path",
-          "url": "/Users/beck/Projects/s3Uploader"
-        }
-      ],
     "require": {
         "php": "^7.4|^8.3",
         "aws/aws-sdk-php": "^3.200"
